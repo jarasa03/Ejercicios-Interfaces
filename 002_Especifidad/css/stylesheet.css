@@ -1,0 +1,19 @@
+table.ciudades#calles tr td:nth-child(1) {
+    background-color: red;
+}
+
+table.ciudades#calles tr td:nth-child(2) {
+    background-color: black;
+}
+
+table.ciudades#calles tr td:nth-child(3) {
+    background-color: yellow;
+}
+
+table.ciudades#calles tr td:nth-child(4) {
+    background-color: orange;
+}
+
+table[title][lang] tr td:nth-child(3) {
+    background-color: lightseagreen;
+}

@@ -1,0 +1,42 @@
+body>h3 {
+    font-size: 1.8rem;
+    color: darkred;
+}
+
+body>p {
+    font-weight: bold;
+    color: blue;
+}
+
+article>:first-child {
+    border: 3px solid;
+}
+
+article>:first-child>h3:first-child {
+    color: red;
+}
+
+article>:nth-child(2)>h3:first-child {
+    color: darkgoldenrod;
+}
+
+article>:nth-child(3)>h3:first-child {
+    color: darkorchid;
+}
+
+article>:nth-child(4)>h3:first-child {
+    color: darkorange;
+}
+
+section>p:first-of-type {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+section>h3+p {
+    font-style: italic;
+}
+
+section>p:last-child {
+    font-size: smaller;
+}

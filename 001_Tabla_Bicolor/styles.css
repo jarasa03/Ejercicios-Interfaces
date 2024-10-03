@@ -1,0 +1,16 @@
+table {
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    margin-top: 20%;
+    border-collapse: collapse;
+}
+
+td,
+tr {
+    padding: 10px;
+}
+
+#uno {
+    background-color: black;
+}

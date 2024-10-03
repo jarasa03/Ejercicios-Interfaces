@@ -1,0 +1,21 @@
+body * {
+    background-color: #FDD;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+body * * {
+    background-color: #DFD;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+body * * * {
+    background-color: #DDF;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+body * * * * {
+    background-color: aqua;
+}
