@@ -1,0 +1,31 @@
+td {
+    border: solid;
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    line-height: 0;
+    position: relative;
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    left: 35%;
+    margin-top: 10%;
+}
+
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+tr:nth-child(even) td:nth-child(even) {
+    background-color: pink;
+}
+
+tr:nth-child(odd) td:nth-child(odd) {
+    background-color: pink;
+}
+
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: lightgreen;
+}
