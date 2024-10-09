@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: solid grey;
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+}
+
+td[colspan="2"] {
+    width: 60px;
+    height: 30px;
+}
