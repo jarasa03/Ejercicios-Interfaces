@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: solid 1px;
+    width: 80px;
+    height: 40px;
+    padding: 0;
+}
+
+caption {
+    border: solid 1px;
+    border-bottom: 0px;
+}
+
+#alcazar {
+    background-color: gray;
+    font-weight: bold;
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: 510%;
+    margin: 0;
+    display: block;
+}
