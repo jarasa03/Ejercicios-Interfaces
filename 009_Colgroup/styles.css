@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    border: solid 2px black;
+}
+
+td {
+    border: solid 1px black;
+    text-align: center;
+}
+
+caption {
+    color: green;
+    font-weight: bold;
+}
+
+tr:first-child {
+    font-weight: bold;
+    background-color: white;
+}
+
+col {
+    background-color: lightyellow;
+}
+
+col+col {
+    background-color: lightpink;
+}
+
+col+col+col {
+    background-color: lightskyblue;
+}
