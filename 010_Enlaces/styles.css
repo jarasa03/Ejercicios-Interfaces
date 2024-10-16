@@ -1,0 +1,33 @@
+body {
+    columns: 3;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+a[href$=".html"],
+a[href$=".css"],
+a[href$=".js"] {
+    color: red;
+}
+
+a[href$=".gif"],
+a[href$=".png"],
+a[href$=".jpg"],
+a[href$=".webp"] {
+    color: magenta;
+}
+
+a[href$=".mp3"],
+a[href$=".ogg"],
+a[href$=".wav"] {
+    color: rgb(41, 155, 41);
+}
+
+a[href^="http://"],
+a[href^="https://"] {
+    background-color: rgb(236, 236, 108);
+}
