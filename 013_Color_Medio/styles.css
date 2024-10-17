@@ -1,0 +1,22 @@
+#contenedor {
+    width: 600px;
+    height: 300px;
+}
+
+div>div {
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+
+#div1 {
+    background-color: rgb(254, 48, 100);
+}
+
+#div3 {
+    background-color: rgb(139, 255, 200);
+}
+
+#div2 {
+    background-color: rgb( calc((254 + 139) / 2), calc((48 + 255) / 2), calc((100 + 200) / 2));
+}
