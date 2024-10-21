@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background: repeating-conic-gradient(from 270deg, red, yellow, rgb(30, 255, 30), cyan, blue, rgb(255, 35, 229), red 25%);
+}
+
+h1 {
+    margin-top: 0;
+    border: 3px black solid;
+    background-color: white;
+    padding-left: 10px;
+}
+
+div {
+    border: 3px black solid;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
