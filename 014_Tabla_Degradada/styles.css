@@ -1,0 +1,50 @@
+td {
+    width: 200px;
+    height: 100px;
+    border: none;
+}
+
+table {
+    background-color: rgb(165, 75, 42);
+    border-collapse: collapse;
+}
+
+tr:first-child>td:first-child {
+    background-color: rgb(255, 220, 180);
+}
+
+tr:first-child>td:nth-child(2) {
+    background-color: rgba(255, 220, 180, 0.9);
+}
+
+tr:first-child>td:nth-child(3) {
+    background-color: rgba(255, 220, 180, 0.8);
+}
+
+tr:first-child>td:nth-child(4) {
+    background-color: rgba(255, 220, 180, 0.7);
+}
+
+tr:first-child>td:nth-child(5) {
+    background-color: rgba(255, 220, 180, 0.6);
+}
+
+tr:first-child>td:nth-child(6) {
+    background-color: rgba(255, 220, 180, 0.5);
+}
+
+tr:first-child>td:nth-child(7) {
+    background-color: rgba(255, 220, 180, 0.4);
+}
+
+tr:first-child>td:nth-child(8) {
+    background-color: rgba(255, 220, 180, 0.3);
+}
+
+tr:first-child>td:nth-child(9) {
+    background-color: rgba(255, 220, 180, 0.2);
+}
+
+tr:first-child>td:nth-child(10) {
+    background-color: rgba(255, 220, 180, 0.1);
+}
