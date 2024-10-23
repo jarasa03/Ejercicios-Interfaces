@@ -1,0 +1,7 @@
+img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle at 30% 100%, rgb(255, 255, 74), transparent, transparent), radial-gradient(circle at 30% 100%, rgba(255, 0, 0, 0.237), transparent), radial-gradient(circle at 40% 80%, rgb(255, 0, 115), transparent), radial-gradient(circle at 10% 0%, rgb(0, 0, 255), rgba(0, 0, 255, 0.607), transparent), radial-gradient(circle at 40% 80%, rgba(255, 0, 115, 0.863), transparent);
+}
