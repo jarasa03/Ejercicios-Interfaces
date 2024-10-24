@@ -1,35 +1,71 @@
-body {
-    background-color: yellow;
+body::before {
+    content: "<body>";
 }
 
-div {
+div::before {
+    content: "<div>";
+}
+
+section::before {
+    content: "<section>";
+}
+
+header::before {
+    content: "<header>";
+}
+
+div::before {
+    content: "<div>";
+}
+
+p::before {
+    content: "<p>";
+}
+
+h1::before {
+    content: "<h1>";
+}
+
+h2::before {
+    content: "<h2>";
+}
+
+h3::before {
+    content: "<h3>";
+}
+
+body>* {
     background-color: lightblue;
 }
 
-section {
-    background-color: lightgreen;
-}
-
-header {
-    background-color: lightpink;
-}
-
-div {
-    background-color: lightsalmon;
-}
-
-p {
+body>*>* {
     background-color: lightgoldenrodyellow;
 }
 
-h1 {
+body>*>*>* {
+    background-color: lightsteelblue;
+}
+
+body>*>*>*>* {
+    background-color: lightgreen;
+}
+
+body>*>*>*>*>* {
     background-color: lightseagreen;
 }
 
-h2 {
-    background-color: lightcoral;
+body>*>*>*>*>*>* {
+    background-color: lightpink;
 }
 
-h3 {
-    background-color: lightskyblue;
+body>*>*>*>*>*>*>* {
+    background-color: lightsalmon;
+}
+
+body>*>*>*>*>*>*>*>* {
+    background-color: lightgray;
+}
+
+body>*>*>*>*>*>*>*>*>* {
+    background-color: lightgreen;
 }
