@@ -1,0 +1,62 @@
+body>* {
+    background-color: lightblue;
+}
+
+body>*>* {
+    background-color: lightgoldenrodyellow;
+}
+
+body>*>*>* {
+    background-color: lightsteelblue;
+}
+
+body>*>*>*>* {
+    background-color: lightgreen;
+}
+
+body>*>*>*>*>* {
+    background-color: lightseagreen;
+}
+
+body>*>*>*>*>*>* {
+    background-color: lightpink;
+}
+
+body>*>*>*>*>*>*>* {
+    background-color: lightsalmon;
+}
+
+body>*>*>*>*>*>*>*>* {
+    background-color: lightgray;
+}
+
+body>*>*>*>*>*>*>*>*>* {
+    background-color: lightgreen;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 200%;
+}
+
+h1::selection,
+h2::selection,
+h3::selection {
+    color: yellow;
+    background-color: red;
+}
+
+p:nth-child(odd)::selection {
+    color: black;
+    background-color: white;
+}
+
+p:nth-child(even)::selection {
+    color: white;
+    background-color: black;
+}
+
+*::selection {
+    color: fuchsia;
+    background-color: yellow;
+}
