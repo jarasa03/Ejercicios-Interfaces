@@ -1,0 +1,56 @@
+img {
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* 5 columnas, todas ocupando el mismo espacio */
+    grid-gap: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#id1:hover {
+    filter: blur(5px);
+}
+
+#id2:hover {
+    filter: grayscale(100%);
+}
+
+#id3:hover {
+    filter: brightness(200%);
+}
+
+#id4:hover {
+    filter: contrast(0%);
+}
+
+#id5:hover {
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+#id6:hover {
+    filter: hue-rotate(180deg);
+}
+
+#id7:hover {
+    filter: invert(100%);
+}
+
+#id8:hover {
+    filter: opacity(0.5);
+}
+
+#id9:hover {
+    filter: saturate(200%);
+}
+
+#id10:hover {
+    filter: sepia(100%);
+}
