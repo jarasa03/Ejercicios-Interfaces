@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@font-face {
+    font-family: "fuego";
+    src: url("./Slugs_Racer.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "fuego2";
+    src: url("./FLAMER.TTF") format("truetype");
+}
+
+@font-face {
+    font-family: "fuego3";
+    src: url("./Play_With_Fire.ttf");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p::first-letter {
+    font-family: "fuego3";
+    font-size: xx-large;
+    color: darkred;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: xx-large;
+    font-family: "fuego";
+}
+
+#h1_footer {
+    font-family: "fuego2";
+}
+
+p {
+    font-family: "Playwrite GB S";
+}
+
+#header {
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+#footer {
+    background-color: darksalmon;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+img {
+    width: 50px;
+    position: sticky;
+    top: 90px;
+    float: right;
+    margin: 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    /* Habilita un contexto relativo para el sticky en h2 */
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+h2 {
+    position: sticky;
+    top: 20px;
+    /* Fija el h2 en la parte superior de su contenedor */
+    margin: 0;
+    padding: 5px;
+    z-index: 2;
+}
