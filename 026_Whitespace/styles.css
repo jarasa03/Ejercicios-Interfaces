@@ -1,0 +1,15 @@
+#p1 {
+    white-space: nowrap;
+}
+
+#p2 {
+    white-space: pre;
+}
+
+#p3 {
+    white-space: pre-wrap;
+}
+
+#p4 {
+    white-space: pre-line;
+}
