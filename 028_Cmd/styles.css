@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=VT323&display=swap');
+
+@font-face {
+    font-family: "computo";
+    src: url("./computo-monospace.otf");
+}
+
+div {
+    white-space: pre;
+    color: greenyellow;
+    font-family: "computo";
+}
+
+* {
+    background-color: black;
+}
+
+#c {
+    color: aqua;
+    font-family: "VT323";
+    font-size: x-large;
+}
+
+#comando {
+    color: yellow;
+    font-family: "VT323";
+    font-size: x-large;
+}
