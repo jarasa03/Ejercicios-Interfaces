@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "computo";
+    src: url("./computo-monospace.otf");
+}
+
+* {
+    white-space: pre-wrap;
+}
+
+div {
+    font-family: "computo";
+    background-color: black;
+    color: greenyellow;
+    text-align: center;
+    height: 500px;
+    overflow: auto;
+}
