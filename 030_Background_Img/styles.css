@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("./Escudo_de_la_Villa_de_Madrid.svg.png"), linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("./madrid-03-1537270899.jpg");
+    background-attachment: fixed, fixed, fixed;
+    background-repeat: no-repeat;
+    background-size: 50px, cover, cover;
+    background-position: 10px 88px, center, center;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+#header {
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+#footer {
+    background-color: darksalmon;
+    position: sticky;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+img {
+    width: 50px;
+    position: sticky;
+    float: right;
+    margin: 10px;
+    top: 88px;
+}
+
+section {
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    /* Habilita un contexto relativo para el sticky en h2 */
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+h2 {
+    position: sticky;
+    top: 20px;
+    /* Fija el h2 en la parte superior de su contenedor */
+    margin: 0;
+    padding: 5px;
+    z-index: 2;
+}
