@@ -1,0 +1,22 @@
+img {
+    width: 700px;
+}
+
+#div1 {
+    background-image: url("Seleccion-M.jpg");
+    width: 200px;
+    height: 250px;
+    background-position-x: -6100px;
+    background-position-y: -800px;
+}
+
+#div2 {
+    background-image: url("Seleccion-F.jpg");
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    left: 1210px;
+    top: 440px;
+    background-position-x: -7800px;
+    background-position-y: -700px;
+}
