@@ -1,0 +1,18 @@
+#humano1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#humano2 {
+    position: absolute;
+    bottom: 40%;
+    left: 13%;
+    transform: rotate(45deg) scale(120%);
+}
+
+#perro {
+    position: absolute;
+    bottom: 0;
+    left: 13%;
+}
