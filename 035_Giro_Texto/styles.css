@@ -1,0 +1,26 @@
+body {
+    background-color: #fce8d5;
+}
+
+div {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    width: 300px;
+    height: 500px;
+    background-image: url("./notes.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px black solid;
+    transform: rotate(-10deg);
+}
+
+p {
+    position: absolute;
+    top: 123px;
+    left: 40px;
+    font-size: 1rem;
+    line-height: 1.94;
+    color: #555;
+    white-space: pre-line;
+}
