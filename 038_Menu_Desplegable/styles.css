@@ -1,0 +1,18 @@
+menu {
+    height: 20px;
+    width: 90%;
+    overflow: hidden;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    &:hover {
+        height: 250px;
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+li:first-child:hover ~ menu {
+    height: 250px;
+}
