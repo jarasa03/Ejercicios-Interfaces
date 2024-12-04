@@ -1,0 +1,74 @@
+#padre {
+    width: 400px;
+    height: 266.67px;
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#id1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 33%;
+    height: 50%;
+    background-image: url("./p_2x_065643996766.png");
+    background-size: 102%;
+}
+
+#id2 {
+    position: absolute;
+    top: 0;
+    left: 33%;
+    width: 33%;
+    height: 50%;
+    background-image: url("./p_2x_065643996766.png");
+    background-position-y: 130px;
+    background-size: 102%;
+}
+
+#id3 {
+    position: absolute;
+    top: 0;
+    left: 66%;
+    width: 33%;
+    height: 50%;
+    background-image: url("./p_2x_065643996766.png");
+    background-position-y: 280px;
+    background-size: 102%;
+}
+
+#id4 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 33%;
+    height: 50%;
+    background-image: url("./p_2x_065643996766.png");
+    background-position-y: 430px;
+    background-size: 102%;
+}
+
+#id5 {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    width: 33%;
+    height: 50%;
+    background-image: url("./p_2x_065643996766.png");
+    background-position-y: 580px;
+    background-size: 102%;
+}
+
+#id6 {
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    width: 33%;
+    height: 50%;
+    background-image: url("./p_2x_065643996766.png");
+    background-position-y: 720px;
+    background-size: 102%;
+}
