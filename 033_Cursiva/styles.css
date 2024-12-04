@@ -1,0 +1,7 @@
+#text1 {
+    transform: skew(-25deg);
+}
+
+#text2 {
+    transform: skew(25deg);
+}
