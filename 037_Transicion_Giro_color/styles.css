@@ -1,0 +1,8 @@
+b {
+    transition-duration: 2s;
+    display: inline-block;
+}
+
+b:hover {
+    transform: rotate(180deg);
+}
