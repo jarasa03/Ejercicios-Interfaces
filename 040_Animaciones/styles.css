@@ -41,7 +41,7 @@ img {
     left: 320px;
     top: 110px;
     transform-origin: center 10px;
-    animation: logo1 1.5s infinite linear;
+    animation: logo1 1.5s infinite ease-in-out;
     animation-direction: alternate;
 }
 
