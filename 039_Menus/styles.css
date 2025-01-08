@@ -1,0 +1,39 @@
+body {
+    display: flex;
+}
+
+menu {
+    list-style-type: none;
+    margin-left: 50px;
+    width: 100%;
+    padding-left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    max-height: 26px;
+    padding: 3px;
+    box-sizing: border-box;
+    width: 100%;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    overflow: hidden;
+    background-color: rgb(203, 3, 203);
+    color: white;
+    font-weight: bold;
+    &:hover {
+        max-height: 200px;
+        background-color: rgb(72, 72, 72);
+    }
+}
+
+header {
+    text-align: center;
+}
+
+li {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
