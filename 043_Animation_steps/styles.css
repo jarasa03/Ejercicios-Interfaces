@@ -1,0 +1,25 @@
+@keyframes mover {
+    from {
+        left: 0px;
+    }
+    to {
+        left: -1925px;
+    }
+}
+
+div {
+    overflow: hidden;
+    background-size: 1800px;
+    height: 140px;
+    width: 160px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%);
+}
+
+img {
+    position: absolute;
+    animation: mover steps(12) infinite .5s;
+    width: 1200%;
+}
