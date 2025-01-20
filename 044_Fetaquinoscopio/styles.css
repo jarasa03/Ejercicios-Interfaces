@@ -1,0 +1,25 @@
+@keyframes giraquegira {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+img {
+    width: 90%;
+    animation: giraquegira steps(16) 1s infinite;
+    border-radius: 550px;
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+body {
+    background-color: rgb(203, 198, 181);
+    overflow: hidden;
+}
