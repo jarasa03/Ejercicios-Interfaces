@@ -1,0 +1,22 @@
+@keyframes div {
+    from {
+        left: 0;
+        top: 40%;
+    }
+    to {
+        left: 100%;
+        top: 40%;
+    }
+}
+
+body {
+    background-image: url("paisaje.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+img {
+    scale: 2;
+    animation: div 1.5s infinite linear;
+    position: absolute;
+}
