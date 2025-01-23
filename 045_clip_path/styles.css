@@ -1,0 +1,34 @@
+@keyframes rularula {
+    from {
+        transform: translate(-50%, -50%) rotate(18deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(-320deg);
+    }
+}
+
+div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(50% 50%, 65% 100%, 100% 100%, 100% 0%, 0% 0%, 0% 100%, 35% 100%);
+    background-color: black;
+    z-index: 1;
+    width: 700px;
+    height: 700px;
+    border-radius: 500px;
+}
+
+img {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    animation: rularula steps(13) infinite 1.5s;
+    left: 50%;
+    top: 50%;
+}
+
+body {
+    overflow: hidden;
+}
