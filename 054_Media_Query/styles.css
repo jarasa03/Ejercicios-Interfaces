@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.container {
+    padding: 20px;
+}
+
+@media (max-width: 575px) {
+    body {
+        background-color: #ff9999;
+        font-size: 16px;
+    }
+    #screen-type::after {
+        content: "X-Small (< 576px)";
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    body {
+        background-color: #ffcc99;
+        font-size: 18px;
+    }
+    #screen-type::after {
+        content: "Small (≥ 576px)";
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        background-color: #ffff99;
+        font-size: 20px;
+    }
+    #screen-type::after {
+        content: "Medium (≥ 768px)";
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background-color: #99ff99;
+        font-size: 22px;
+    }
+    #screen-type::after {
+        content: "Large (≥ 992px)";
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    body {
+        background-color: #99ccff;
+        font-size: 24px;
+    }
+    #screen-type::after {
+        content: "Extra Large (≥ 1200px)";
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        background-color: #cc99ff;
+        font-size: 26px;
+    }
+    #screen-type::after {
+        content: "Extra Extra Large (≥ 1400px)";
+    }
+}
