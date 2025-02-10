@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+}
+
+.comun {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+div {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 5fr 80px;
+}
+
+header {
+    background-color: red;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    color: white;
+    &::before {
+        content: "header";
+    }
+}
+
+nav {
+    background-color: greenyellow;
+    &::before {
+        content: "nav";
+    }
+}
+
+main {
+    background-color: blue;
+    &::before {
+        content: "main";
+    }
+}
+
+aside {
+    background-color: violet;
+    &::before {
+        content: "aside";
+    }
+}
+
+footer {
+    color: white;
+    background-color: black;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    &::before {
+        content: "footer";
+    }
+}
+
+
+/* Small */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    main {
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+    }
+    aside {
+        grid-column: 1 / 4;
+        grid-row: 4 / 5;
+    }
+    footer {
+        grid-row: 5 / 6;
+    }
+    nav {
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+    }
+}
+
+
+/* Medium */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    main {
+        grid-column: 2 / 4;
+    }
+    aside {
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+    }
+    footer {
+        grid-row: 4 / 5;
+    }
+}
